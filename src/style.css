@@ -15,6 +15,7 @@
     
 }
 
+
 /*FORM*/
 
 form{
@@ -28,6 +29,18 @@ form{
     position: sticky;
     font-family: 'Prata', serif;
     
+}
+
+@media screen and (max-width: 720px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        width: 100%;
+        max-width: none;
+    }
 }
 
     

@@ -225,8 +225,8 @@ function App() {
                     attState(dado.status, dado.id)
                   }}
                   style={dado.status ?
-                    { maxHeight: "20px", maxWidth: "20px", background: "#FFF", borderRadius: "5px" } :
-                    { height: "20px", width: "20px", background: "#FFF", borderRadius: "5px" }}>
+                    { display:"flex", alignItems:"center", padding: "5px", background: "#FFF", borderRadius: "5px" } :
+                    { padding:"13px", background: "#FFF", borderRadius: "5px" }}>
 
                   {dado.status ? <AiOutlineCheck /> : null}
                 </div>

@@ -5,7 +5,7 @@ As modificações são feitas via API.
 
 ### O que falta?
 * Alterar esquema de cores
-* Form "sticky" para se mover junto com a tela
-* Modelar o botão de confirmação da task 
-* Mudar o flex para column em uma determinada medida
+* Form "sticky" para se mover junto com a tela enquanto direction = row
+* Modelar o botão de confirmação da task -> done
+* Mudar o flex para column em uma determinada medida -> done
 * Construir backend em java para fazer o deploy da aplicação no heroku
