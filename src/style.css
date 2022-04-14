@@ -137,6 +137,7 @@ ul{
 .registros-buttons{
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .registros-buttons *{
